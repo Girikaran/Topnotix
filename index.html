@@ -2,1398 +2,663 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Topnotix</title>
-    <!-- Stylesheets -->
-    <link href="https://html.kodesolution.com/2025/nexella-html/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://html.kodesolution.com/2025/nexella-html/css/style.css" rel="stylesheet">
-    <link href="https://html.kodesolution.com/2025/nexella-html/css/responsive.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="https://html.kodesolution.com/2025/nexella-html/images/favicon.png"
-        type="image/x-icon">
-    <link rel="icon" href="https://html.kodesolution.com/2025/nexella-html/images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .footer-logo img {
-            width: 150px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Topnotix">
+  <title>Topnotix</title> <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="assets/img/logo/thumb.png"> <!-- Dependencies CSS Files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome-pro.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/odometer.min.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css"> <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="page-wrapper">
-
-        <!-- Preloader start -->
-        <div class="preloader">
-            <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-                <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-            </svg>
-            <div class="preloader-heading">
-                <div class="load-text">
-                    <span>L</span>
-                    <span>o</span>
-                    <span>a</span>
-                    <span>d</span>
-                    <span>i</span>
-                    <span>n</span>
-                    <span>g</span>
-                </div>
-            </div>
-        </div>
-        <!-- Preloader end -->
-
-        <!-- Back-to-top start -->
-        <div class="back-to-top-wrapper">
-            <button id="back_to_top" type="button" class="back-to-top-btn">
-                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
-            </button>
-        </div>
-        <!-- Back-to-top start -->
-
-        <!-- Main Header-->
-        <header class="main-header header-3">
-            <!-- Header Lower -->
-            <div class="header-lower">
-                <!-- Main box -->
-                <div class="main-box">
-                    <div class="logo-box">
-                        <div class="logo">
-                            <a href="index.html"><img src="logo.svg" alt="" title="Topnotix"></a>
-                        </div>
-                    </div>
-                    <!--Nav Box-->
-                    <div class="nav-outer">
-                        <nav class="nav main-menu">
-                            <ul class="navigation">
-                                <li class="current dropdown">
-                                    <a href="index.html">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Home Layout 1</a></li>
-                                        <li><a href="index-2.html">Home Layout 2</a></li>
-                                        <li><a href="index-3.html">Home Layout 3</a></li>
-                                        <li><a href="index-4.html">Home Layout 4</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="page-about.html">About</a></li>
-                                        <li class="dropdown">
-                                            <a href="#">Team</a>
-                                            <ul>
-                                                <li><a href="page-team.html">Team List</a></li>
-                                                <li><a href="page-team-details.html">Team Details</a></li>
-                                            </ul>
-                                            <div class="dropdown-btn"><i class="fa fa-angle-down"></i></div>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#">Shop</a>
-                                            <ul>
-                                                <li><a href="shop-products.html">Products</a></li>
-                                                <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
-                                                <li><a href="shop-product-details.html">Product Details</a></li>
-                                                <li><a href="shop-cart.html">Cart</a></li>
-                                                <li><a href="shop-checkout.html">Checkout</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="page-testimonial.html">Testimonial</a></li>
-                                        <li><a href="page-pricing.html">Pricing</a></li>
-                                        <li><a href="page-faq.html">FAQ</a></li>
-                                        <li><a href="page-404.html">Page 404</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#">Projects</a>
-                                    <ul>
-                                        <li><a href="page-projects.html">Projects</a></li>
-                                        <li><a href="page-project-details.html">Projects Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#">Services</a>
-                                    <ul>
-                                        <li><a href="page-services.html">Services List</a></li>
-                                        <li><a href="page-service-details.html">Service Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#">News</a>
-                                    <ul>
-                                        <li><a href="news-grid.html">News Grid</a></li>
-                                        <li><a href="news-details.html">News Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="page-contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                        <!-- Main Menu End-->
-                    </div>
-                    <div class="outer-box p-0">
-                        <div class="ui-btn-outer">
-                            <button class="ui-btn ui-btn search-btn">
-                                <span class="icon lnr lnr-icon-search"> Search...</span>
-                            </button>
-                        </div>
-                        <div class="header-btn d-none d-xxl-block">
-                            <a class="header-btn-main" href="page-contact.html">
-                                <span class="header-theme-btn">Get a quote</span>
-                                <span class="header-btn-arrow-right"><i class="fa-regular fa-arrow-right"></i></span>
-                            </a>
-                        </div>
-                        <!-- Mobile Nav toggler -->
-                        <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Header Lower -->
-
-            <!-- Mobile Menu  -->
-            <div class="mobile-menu">
-                <div class="menu-backdrop"></div>
-                <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
-                <nav class="menu-box">
-                    <div class="upper-box">
-                        <div class="nav-logo">
-                            <a href="index.html"><img src="logo.svg" alt=""></a>
-                        </div>
-                        <div class="close-btn"><i class="icon fa fa-times"></i></div>
-                    </div>
-
-                    <ul class="navigation clearfix">
-                        <!--Keep This Empty / Menu will come through Javascript-->
-                    </ul>
-                    <ul class="contact-list-one">
-                        <li>
-                            <!-- Contact Info Box -->
-                            <div class="contact-info-box">
-                                <i class="icon lnr-icon-phone-handset"></i>
-                                <span class="title">Call Now</span>
-                                <a href="tel:+92880098670">+92 (8800) - 98670</a>
-                            </div>
-                        </li>
-                        <li>
-                            <!-- Contact Info Box -->
-                            <div class="contact-info-box">
-                                <span class="icon lnr-icon-envelope1"></span>
-                                <span class="title">Send Email</span>
-                                <a href="mailto:help@company.com">help@company.com</a>
-                            </div>
-                        </li>
-                        <li>
-                            <!-- Contact Info Box -->
-                            <div class="contact-info-box">
-                                <span class="icon lnr-icon-clock"></span>
-                                <span class="title">Send Email</span>
-                                Mon - Sat 8:00 - 6:30, Sunday - CLOSED
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="social-links">
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- End Mobile Menu -->
-
-            <!-- Header Search -->
-            <div class="search-popup">
-                <span class="search-back-drop"></span>
-                <button class="close-search"><span class="fa fa-times"></span></button>
-                <div class="search-inner">
-                    <form method="post" action="#">
-                        <div class="form-group">
-                            <input type="search" name="search-field" value="" placeholder="Search..." required="">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- End Header Search -->
-
-            <!-- Sticky Header  -->
-            <div class="sticky-header">
-                <div class="auto-container">
-                    <div class="inner-container">
-                        <!--Logo-->
-                        <div class="logo">
-                            <a href="index.html"><img src="logo.svg" alt=""></a>
-                        </div>
-
-                        <!--Right Col-->
-                        <div class="nav-outer">
-                            <!-- Main Menu -->
-                            <nav class="main-menu">
-                                <div class="navbar-collapse show collapse clearfix">
-                                    <ul class="navigation clearfix">
-                                        <!--Keep This Empty / Menu will come through Javascript-->
-                                    </ul>
-                                </div>
-                            </nav>
-                            <!-- Main Menu End-->
-
-                            <!--Mobile Navigation Toggler-->
-                            <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Sticky Menu -->
-        </header>
-        <!--End Main Header -->
-
-        <!-- Hero Section -->
-        <section class="hero-section hero-3 bg-cover" style="background-image: url('images/home-3/hero-bg.jpg');">
-            <div class="email-line">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/main-home/line.png" alt="line shape">
-            </div>
-            <div class="hero-shape">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/hero-shape.png" alt="img">
-            </div>
-            <div class="email-link">
-                <a href="mailto:example@gmail.com">example@gmail.com</a>
-            </div>
-            <div class="auto-container">
-                <div class="row g-4">
-                    <div class="col-xl-9 mt-0">
-                        <div class="hero-content">
-                            <h1 class="title hero_title tv_hero_title hero_title_1">
-                                Social <span class="text-1">Media</span> <br>
-                                <span class="arrow-icon"><img
-                                        src="https://html.kodesolution.com/2025/nexella-html/images/home-3/arrow.svg"
-                                        alt="img"></span>Marketing
-                            </h1>
-                            <p class="wow fadeInUp" data-wow-delay=".3s">
-                                We don't just build websites or launch campaigns <br>
-                                — we build relationships and drive success. Let's create
-                                something great together.
-                            </p>
-                            <div class="hero-button-items wow fadeInUp" data-wow-delay=".5s">
-                                <a class="theme-btn-main" href="page-about.html">
-                                    <span class="theme-btn-arrow-left theme-bg theme-color-white"><i
-                                            class="fa-solid fa-arrow-left"></i></span>
-                                    <span class="theme-btn theme-bg theme-color-white">Discover More </span>
-                                    <span class="theme-btn-arrow-right theme-bg theme-color-white"><i
-                                            class="fa-solid fa-arrow-right"></i></span>
-                                </a>
-                                <div class="client-item">
-                                    <div class="client-image">
-                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/client-1.jpg"
-                                            alt="img" class="icon-1">
-                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/client-2.jpg"
-                                            alt="img" class="icon-2">
-                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/client-3.jpg"
-                                            alt="img" class="icon-3">
-                                        <div class="count-box"><span class="count-text" data-speed="3000"
-                                                data-stop="6"></span>K<span class="plus">+</span></div>
-                                    </div>
-                                    <h6 class="happy-title">
-                                        <span>200 +</span>
-                                        Happy Customer's
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="hero-image">
-                            <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/hero-image.jpg"
-                                alt="img">
-                            <a class="video-btn playbtnanim" href="https://www.youtube.com/watch?v=Lplq8RjQ0zU"
-                                data-fancybox="gallery" data-caption=""><i class="fa-sharp fa-solid fa-play"></i></a>
-                            <div class="hero-marketing-box bounce-animate">
-                                <div class="marketing-icon">
-                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-2/vector-icon.svg"
-                                        alt="">
-                                </div>
-                                <h6 class="marketing-title">Social Media Marketing</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--END Banner Section -->
-
-        <!-- About Section -->
-        <section class="about-section-3 fix section-padding">
-            <div class="shape-1 bounce-animate2 d-none d-xl-block">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/about/shape-1.png" alt="img">
-            </div>
-            <div class="shape-2 dance d-none d-xl-block">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/about/shape-2.png" alt="img">
-            </div>
-            <div class="shape-3 d-none d-xl-block">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/about/shape-3.png" alt="img">
-            </div>
-            <div class="auto-container">
-                <div class="row g-4">
-                    <div class="col-lg-5 col-md-9">
-                        <div class="about-images-style-3 wow img-custom-anim-left">
-                            <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/about/about-1.jpg"
-                                alt="img">
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="about-content-style-3">
-                            <div class="sec-title mb-0">
-                                <span class="sub-title"><img
-                                        src="https://html.kodesolution.com/2025/nexella-html/images/main-home/sub-title-shape.svg"
-                                        alt="">About
-                                    Company</span>
-                                <h2 class="hero_title text-reveal-anim">
-                                    Elevating Your Brand’s Influence Through Bold, Innovative Social Media Solutions
-                                </h2>
-                            </div>
-                            <p class="about-text wow fadeInUp" data-wow-delay=".3s">
-                                Topnotix we transformative digital experiences captivate audiences
-                                design solutions are not only visually
-                            </p>
-                            <div class="row g-4">
-                                <div class="col-lg-7">
-                                    <div class="about-list-items wow fadeInUp" data-wow-delay=".5s">
-                                        <ul>
-                                            <li>
-                                                <span></span>
-                                                Driving Progress Intelligent Innovation
-                                            </li>
-                                            <li>
-                                                <span></span>
-                                                Powering Change Partnership
-                                            </li>
-                                            <li>
-                                                <span></span>
-                                                Paths to Real Success
-                                            </li>
-                                        </ul>
-                                        <a class="theme-btn-main" href="page-about.html">
-                                            <span class="theme-btn-arrow-left theme-bg theme-color-white"><i
-                                                    class="fa-solid fa-arrow-left"></i></span>
-                                            <span class="theme-btn theme-bg theme-color-white">More About Us</span>
-                                            <span class="theme-btn-arrow-right theme-bg theme-color-white"><i
-                                                    class="fa-solid fa-arrow-right"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5">
-                                    <div class="about-image-2 wow img-custom-anim-right">
-                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/about/about-2.jpg"
-                                            alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Emd About Section -->
-
-        <!--Start Marquee Section h3 -->
-        <div class="marquee-section-h3">
-            <div class="marquee-h3">
-                <div class="marquee-group">
-                    <div class="text">Digital Marketing</div>
-                    <div class="text">Email Marketing</div>
-                    <div class="text">Social Media Marketing</div>
-                    <div class="text">Rate Optimization</div>
-                    <div class="text">Digital Marketing</div>
-                </div>
-
-                <div class="marquee-group">
-                    <div class="text">Social Media Marketing</div>
-                    <div class="text">Email Marketing</div>
-                    <div class="text">Social Media Marketing</div>
-                    <div class="text">Rate Optimization</div>
-                    <div class="text">Digital Marketing</div>
-                </div>
-            </div>
-        </div>
-        <!--End Marquee Section Two -->
-
-        <!--Start Service Section Two -->
-        <section class="service-section-3 fix section-padding">
-            <div class="service-bg-blur d-none d-xxl-block"></div>
-            <div class="auto-container">
-                <div class="sec-title">
-                    <div class="row g-4 align-items-end justify-content-between">
-                        <div class="col-lg-5 col-md-6">
-                            <span class="sub-title"><img
-                                    src="https://html.kodesolution.com/2025/nexella-html/images/main-home/sub-title-shape.svg"
-                                    alt="">Topnotix
-                                Services</span>
-                            <h2 class="hero_title text-reveal-anim">
-                                Social Media Marketing <br>
-                                Gets You Noticed
-                            </h2>
-                        </div>
-                        <div class="col-lg-5 col-md-6 text-start text-md-end wow fadeInUp" data-wow-delay=".3s">
-                            <a class="theme-btn-main" href="page-service-details.html">
-                                <span class="theme-btn-arrow-left theme-bg theme-color-white"><i
-                                        class="fa-solid fa-arrow-left"></i></span>
-                                <span class="theme-btn theme-bg theme-color-white">Topnotix Services</span>
-                                <span class="theme-btn-arrow-right theme-bg theme-color-white"><i
-                                        class="fa-solid fa-arrow-right"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-bg-color-3">
-                    <div class="swiper service-slider-2">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="service-card-style-3">
-                                    <div class="icon">
-                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/main-home/service-icon1.png"
-                                            alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title">
-                                            <a href="page-service-details.html">
-                                                Social Marketing
-                                                Automation
-                                            </a>
-                                        </h4>
-                                        <p>
-                                            Topnotix adopts client-centric approach
-                                            business's unique
-                                        </p>
-                                        <div class="service-btn">
-                                            <a href="page-service-details.html">Explore More<i
-                                                    class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="service-card-style-3">
-                                    <div class="icon">
-                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/main-home/service-icon2.png"
-                                            alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title">
-                                            <a href="page-service-details.html">
-                                                Content Creation & Design
-                                            </a>
-                                        </h4>
-                                        <p>
-                                            Topnotix adopts client-centric approach
-                                            business's unique
-                                        </p>
-                                        <div class="service-btn">
-                                            <a href="page-service-details.html">Explore More<i
-                                                    class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="service-card-style-3">
-                                    <div class="icon">
-                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/main-home/service-icon3.png"
-                                            alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title">
-                                            <a href="page-service-details.html">
-                                                Social Media Strategy & Planning
-                                            </a>
-                                        </h4>
-                                        <p>
-                                            Topnotix adopts client-centric approach
-                                            business's unique
-                                        </p>
-                                        <div class="service-btn">
-                                            <a href="page-service-details.html">Explore More<i
-                                                    class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-dot-2 text-center pt-5">
-                    <div class="dot"></div>
-                </div>
-            </div>
-        </section>
-        <!--End Service Section Two -->
-
-        <!--Success Section -->
-        <section class="success-section-3 section-padding bg-cover"
-            style="background-image: url('images/home-3/success-bg.jpg');">
-            <div class="suceess-shape">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/success-shape.png" alt="img">
-            </div>
-            <div class="auto-container">
-                <div class="row g-4 justify-content-between">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="sec-title mb-0">
-                            <span class="sub-title theme-color-black"><img
-                                    src="https://html.kodesolution.com/2025/nexella-html/images/main-home/sub-title-shape2.svg"
-                                    alt="">Topnotix Success</span>
-                            <h2 class="theme-color-black text-reveal-anim">
-                                Expert-Led Strategies <br>
-                                Online Success
-                            </h2>
-                        </div>
-                        <div class="success-counter-items wow fadeInUp" data-wow-delay=".3s">
-                            <div class="success-counter">
-                                <div class="count-box"><span class="count-text" data-speed="3000"
-                                        data-stop="25">5</span><span class="plus">Year</span></div>
-                                <p>
-                                    We have won 40+ awards
-                                    believe in quality.
-                                </p>
-                            </div>
-                            <div class="award-image">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/award.png"
-                                    alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="success-box-items-3">
-                            <div class="circle-icon d-none d-sm-block">
-                                <div class="icon">
-                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/vec-icon.png"
-                                        alt="img">
-                                </div>
-                            </div>
-                            <div class="row g-4">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="success-box-counter">
-                                        <h3 class="count-box">
-                                            <span class="count-text" data-speed="3000" data-stop="300">20</span>+
-                                        </h3>
-                                        <p>
-                                            Projects Completed
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="success-box-counter">
-                                        <h3 class="count-box">
-                                            <span class="count-text" data-speed="3000" data-stop="67">20</span>%
-                                        </h3>
-                                        <p>
-                                            client success rate
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="success-box-counter">
-                                        <h3 class="count-box">
-                                            <span class="count-text" data-speed="3000" data-stop="65">6</span>+
-                                        </h3>
-                                        <p>
-                                            Expert Members
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="success-box-counter">
-                                        <h3 class="count-box">
-                                            <span class="count-text" data-speed="3000" data-stop="87">20</span>%
-                                        </h3>
-                                        <p>
-                                            Trusted clients 28k
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Choose Us Section -->
-        <section class="choose-us-section-3 fix section-padding">
-            <div class="bg-shape">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/choose-us-bg.png" alt="img">
-            </div>
-            <div class="choose-right-shape d-none d-xxl-block">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/choose-us-right1.png" alt="img">
-            </div>
-            <div class="auto-container">
-                <div class="sec-title">
-                    <div class="row g-4 align-items-end justify-content-between">
-                        <div class="col-lg-5 col-md-6">
-                            <span class="sub-title"><img
-                                    src="https://html.kodesolution.com/2025/nexella-html/images/main-home/sub-title-shape.svg"
-                                    alt="">Why Choose
-                                Us</span>
-                            <h2 class="hero_title text-reveal-anim">
-                                What Makes Us Stand Out
-                            </h2>
-                        </div>
-                        <div class="col-lg-5 col-md-6 text-start text-md-end wow fadeInUp" data-wow-delay=".3s">
-                            <a class="theme-btn-main" href="page-about.html">
-                                <span class="theme-btn-arrow-left theme-bg theme-color-white"><i
-                                        class="fa-solid fa-arrow-left"></i></span>
-                                <span class="theme-btn theme-bg theme-color-white">Topnotix Features</span>
-                                <span class="theme-btn-arrow-right theme-bg theme-color-white"><i
-                                        class="fa-solid fa-arrow-right"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="choose-us-image-style-3">
-                            <div class="choose-us-circle d-none d-xxl-block">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/choose-circle.png"
-                                    alt="img" class="rotate">
-                            </div>
-                            <div class="choose-marketing-box bounce-animate">
-                                <div class="marketing-icon">
-                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-2/vector-icon.svg"
-                                        alt="">
-                                </div>
-                                <h6 class="marketing-title">Your Best Marketing Partner</h6>
-                            </div>
-                            <div class="thumb-1 wow img-custom-anim-left">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/choose-us-image.jpg"
-                                    alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="choose-us-box-style-3 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="choose-us-box-3">
-                                <span class="number">01</span>
-                                <div class="icon">
-                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/choose-icon.svg"
-                                        alt="img">
-                                </div>
-                                <div class="content">
-                                    <h4 class="title">Innovation & Adaptability</h4>
-                                    <p>
-                                        Topnotix is a dynamic best socialmedia marketing pros dedicated businesses
-                                        innovative.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="choose-us-box-style-3 wow fadeInUp" data-wow-delay=".5s">
-                            <div class="choose-us-box-3">
-                                <span class="number">02</span>
-                                <div class="icon">
-                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/choose-icon-2.svg"
-                                        alt="img">
-                                </div>
-                                <div class="content">
-                                    <h4 class="title">Expertise & Experience</h4>
-                                    <p>
-                                        Topnotix is a dynamic best socialmedia marketing pros dedicated businesses
-                                        innovative.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="choose-us-box-style-3 mb-0 wow fadeInUp" data-wow-delay=".7s">
-                            <div class="choose-us-box-3">
-                                <span class="number">03</span>
-                                <div class="icon">
-                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/choose-icon-3.svg"
-                                        alt="img">
-                                </div>
-                                <div class="content">
-                                    <h4 class="title">Creative & Engaging Content</h4>
-                                    <p>
-                                        Topnotix is a dynamic best socialmedia marketing pros dedicated businesses
-                                        innovative.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Start Marquee Section h3 -->
-        <div class="marquee-section-h3">
-            <div class="marquee-h3">
-                <div class="marquee-group">
-                    <div class="text">Digital Marketing</div>
-                    <div class="text">Email Marketing</div>
-                    <div class="text">Social Media Marketing</div>
-                    <div class="text">Rate Optimization</div>
-                    <div class="text">Digital Marketing</div>
-                </div>
-
-                <div class="marquee-group">
-                    <div class="text">Social Media Marketing</div>
-                    <div class="text">Email Marketing</div>
-                    <div class="text">Social Media Marketing</div>
-                    <div class="text">Rate Optimization</div>
-                    <div class="text">Digital Marketing</div>
-                </div>
-            </div>
-        </div>
-        <!--End Marquee Section Two -->
-
-        <!-- Work Section -->
-        <section class="work-section section-padding">
-            <div class="right-shape1">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/work/right-shape1.png"
-                    alt="img">
-            </div>
-            <div class="auto-container">
-                <div class="row">
-                    <!-- Content Column -->
-                    <div class="col-lg-12 wow fadeInUp">
-                        <div class="inner-column">
-                            <div class="sec-title text-center">
-                                <h2 class="work-title hero_title tv_hero_title hero_title_1">WORKS</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row service-pin">
-                    <!-- Content Column -->
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="work-box-items-3 service-panel">
-                            <div class="work-content">
-                                <div class="top-title">
-                                    <span>01</span>
-                                    <p>JANUARY 2025</p>
-                                </div>
-                                <div class="content">
-                                    <h2 class="title">
-                                        <a href="page-services.html">
-                                            Conduct audience research
-                                        </a>
-                                    </h2>
-                                    <p>
-                                        Topnotix adopts client-centric approach main business's pro and challenge latest
-                                        digital agency design.
-                                    </p>
-                                    <a class="header-btn-main btn-theme border-style-btn" href="page-services.html">
-                                        <span class="header-theme-btn">Get a quote</span>
-                                        <span class="header-btn-arrow-right"><i
-                                                class="fa-regular fa-arrow-right"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="thumb">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/work/work-1.jpg"
-                                    alt="img">
-                            </div>
-                        </div>
-                        <div class="work-box-items-3 service-panel">
-                            <div class="shape-1 bounce-animate2 d-none d-xxl-block">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/work/shape1.png"
-                                    alt="img">
-                            </div>
-                            <div class="work-content">
-                                <div class="top-title">
-                                    <span>02</span>
-                                    <p>JANUARY 2025</p>
-                                </div>
-                                <div class="content">
-                                    <h2 class="title">
-                                        <a href="page-services.html">
-                                            Set up social media profiles
-                                        </a>
-                                    </h2>
-                                    <p>
-                                        Topnotix adopts client-centric approach main business's pro and challenge latest
-                                        digital agency design.
-                                    </p>
-                                    <a class="header-btn-main btn-theme border-style-btn" href="page-services.html">
-                                        <span class="header-theme-btn">Get a quote</span>
-                                        <span class="header-btn-arrow-right"><i
-                                                class="fa-regular fa-arrow-right"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="thumb">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/work/work-2.jpg"
-                                    alt="img">
-                            </div>
-                        </div>
-                        <div class="work-box-items-3 mb-0 service-panel">
-                            <div class="shape-1 bounce-animate2 d-none d-xxl-block">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/work/shape2.png"
-                                    alt="img">
-                            </div>
-                            <div class="work-content">
-                                <div class="top-title">
-                                    <span>03</span>
-                                    <p>JANUARY 2025</p>
-                                </div>
-                                <div class="content">
-                                    <h2 class="title">
-                                        <a href="page-services.html">
-                                            Branded hashtag challenge
-                                        </a>
-                                    </h2>
-                                    <p>
-                                        Topnotix adopts client-centric approach main business's pro and challenge latest
-                                        digital agency design.
-                                    </p>
-                                    <a class="header-btn-main btn-theme border-style-btn" href="page-services.html">
-                                        <span class="header-theme-btn">Get a quote</span>
-                                        <span class="header-btn-arrow-right"><i
-                                                class="fa-regular fa-arrow-right"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="thumb">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/work/work-3.jpg"
-                                    alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="work-shapes">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/work/circle.png" alt="">
-            </div>
-            <div class="shape-3 d-none d-xxl-block">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/work/shape-3.png" alt="img">
-            </div>
-            <div class="work-bg-blur2 d-none d-xxl-block"></div>
-        </section>
-        <!-- End Work Section -->
-
-        <!-- Start Tesimonial  Section -->
-        <section class="testimonial-section-3 fix section-padding bg-cover"
-            style="background-image: url('images/home-3/testimonial-bg.png');">
-            <div class="testimonial-right-shape">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/testimoniak-right-shape1.png"
-                    alt="img">
-            </div>
-            <div class="auto-container">
-                <div class="row g-4">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="testimonial-image-style-3">
-                            <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/testimonial-image.jpg"
-                                alt="img">
-                            <div class="testi-campaign bounce-animate2">
-                                <span class="campaign-badge">Paid Campaign</span>
-                            </div>
-                            <div class="testi-marketing-box bounce-animate">
-                                <div class="marketing-icon">
-                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-2/vector-icon.svg"
-                                        alt="">
-                                </div>
-                                <h6 class="marketing-title">Social Media Marketing</h6>
-                            </div>
-                            <div class="testi-circle d-none d-xxl-block">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/testi-circle.png"
-                                    alt="img" class="rotate">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="testimonial-content-style-3">
-                            <div class="sec-title">
-                                <span class="sub-title theme-color-black"><img
-                                        src="https://html.kodesolution.com/2025/nexella-html/images/main-home/sub-title-shape2.svg"
-                                        alt="">Our Testimonials</span>
-                                <h2 class="theme-color-black text-reveal-anim">
-                                    Hear what others say about <br>partnering with us
-                                </h2>
-                            </div>
-                            <div class="swiper testimonial-slider-3">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-box-items-3">
-                                            <div class="content">
-                                                <div class="client-info">
-                                                    <div class="client-img">
-                                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/client-img.jpg"
-                                                            alt="img">
-                                                    </div>
-                                                    <div class="info-title">
-                                                        <h4 class="title">John D. Alexon</h4>
-                                                        <span>— Topnotix IT</span>
-                                                    </div>
-                                                </div>
-                                                <div class="quote-icon">
-                                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/quote-icon.svg"
-                                                        alt="img">
-                                                </div>
-                                                <p>
-                                                    Topnotix, we don't just run campaigns—we build our process
-                                                    digital relationships that grow brands and delivered
-                                                    measurable impact. our success lies in making profession
-                                                    clients unforgettable online design.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-box-items-3">
-                                            <div class="content">
-                                                <div class="client-info">
-                                                    <div class="client-img">
-                                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/client-img.jpg"
-                                                            alt="img">
-                                                    </div>
-                                                    <div class="info-title">
-                                                        <h4 class="title">John D. Alexon</h4>
-                                                        <span>— Topnotix IT</span>
-                                                    </div>
-                                                </div>
-                                                <div class="quote-icon">
-                                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/quote-icon.svg"
-                                                        alt="img">
-                                                </div>
-                                                <p>
-                                                    Topnotix, we don't just run campaigns—we build our process
-                                                    digital relationships that grow brands and delivered
-                                                    measurable impact. our success lies in making profession
-                                                    clients unforgettable online design.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-box-items-3">
-                                            <div class="content">
-                                                <div class="client-info">
-                                                    <div class="client-img">
-                                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/client-img.jpg"
-                                                            alt="img">
-                                                    </div>
-                                                    <div class="info-title">
-                                                        <h4 class="title">John D. Alexon</h4>
-                                                        <span>— Topnotix IT</span>
-                                                    </div>
-                                                </div>
-                                                <div class="quote-icon">
-                                                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/quote-icon.svg"
-                                                        alt="img">
-                                                </div>
-                                                <p>
-                                                    Topnotix, we don't just run campaigns—we build our process
-                                                    digital relationships that grow brands and delivered
-                                                    measurable impact. our success lies in making profession
-                                                    clients unforgettable online design.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="array-button">
-                                <button class="array-next">
-                                    <i class="fa-solid fa-arrow-left"></i>
-                                </button>
-                                <button class="array-prev">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section Start -->
-        <section class="contact-section-3 section-padding pb-5 bg-cover"
-            style="background-image: url('images/home-3/contact-shape-bg.png');">
-            <div class="auto-container">
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="contact-content-style-3">
-                            <div class="sec-title mb-0">
-                                <span class="sub-title"><img
-                                        src="https://html.kodesolution.com/2025/nexella-html/images/main-home/sub-title-shape.svg"
-                                        alt="">Have
-                                    Questions ?</span>
-                                <h2 class="hero_title text-reveal-anim">
-                                    Start Your Digital Journey
-                                    <br>Get in Touch Now
-                                </h2>
-                            </div>
-                            <div class="contact-shape1 bounce-animate2 mt-30 d-none d-xl-block">
-                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/contact-shape1.png"
-                                    alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="contact-form-style-3">
-                            <form method="post" action="#" id="contact-form">
-                                <div class="row g-4">
-                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                        <input type="text" placeholder="Your Name *" required>
-                                    </div>
-
-                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                        <input type="tel" placeholder="Phone No" required>
-                                    </div>
-
-                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                        <input type="email" placeholder="Enter E-Mail *" required>
-                                    </div>
-
-                                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                        <input type="text" placeholder="Subject *" required>
-                                    </div>
-
-                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                        <textarea name="message" placeholder="Write Message..." required></textarea>
-                                    </div>
-
-                                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                        <div class="nexella-buton">
-                                            <button class="theme-btn-main" type="submit">
-                                                <span class="theme-btn-arrow-left theme-bg theme-color-white"><i
-                                                        class="fa-solid fa-arrow-left"></i></span>
-                                                <span class="theme-btn theme-bg theme-color-white">Send Message</span>
-                                                <span class="theme-btn-arrow-right theme-bg theme-color-white"><i
-                                                        class="fa-solid fa-arrow-right"></i></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Brand Section Start -->
-        <div class="brand-section-3 theme-color-bg mt-0">
-            <div class="line-shape">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/line-shape.png" alt="img">
-            </div>
-            <div class="vec-line">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/vec-line.png" alt="img">
-            </div>
-            <div class="vec-line-2">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/vec-line-2.png" alt="img">
-            </div>
-            <div class="auto-container">
-                <div class="brand-wrapper-3">
-                    <div class="brand-wrapper-inner-3">
-                        <div class="row g-4 align-items-center">
-                            <div class="col-lg-5">
-                                <div class="brand-icon">
-                                    <div class="icon">
-                                        <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/icon-1.png"
-                                            alt="img">
-                                    </div>
-                                    <h4 class="title">
-                                        Trusted by 1200+ founders & business owners
-                                    </h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="swiper brand-slider-3">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="brand-image-3 text-center">
-                                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/brand-1.png"
-                                                    alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="brand-image-3 text-center">
-                                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/brand-2.png"
-                                                    alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="brand-image-3 text-center">
-                                                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/brand-3.png"
-                                                    alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- News Section -->
-        <section class="news-section-3 section-padding theme-color-bg">
-            <div class="shape-1 d-none d-xxl-block">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/news-shape1.png" alt="img">
-            </div>
-            <div class="shape-2 d-none d-xxl-block">
-                <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/news-shape2.png" alt="img">
-            </div>
-            <div class="auto-container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <div class="sec-title text-center">
-                            <span class="sub-title"><img
-                                    src="https://html.kodesolution.com/2025/nexella-html/images/main-home/sub-title-shape.svg"
-                                    alt="">Latest
-                                Blog</span>
-                            <h2 class="hero_title text-reveal-anim">
-                                Read Our Recent Blog Post <br>Form Update news
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-4">
-                    <!-- News Block -->
-                    <div class="news-block mb-0 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="blog-single-box">
-                            <div class="image-box">
-                                <figure class="image">
-                                    <a href="news-details.html"><img
-                                            src="https://html.kodesolution.com/2025/nexella-html/images/main-home/blog1.png"
-                                            alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="content-box">
-                                <span class="date">MAY 28,2025</span>
-                                <h4 class="title">
-                                    <a href="news-details.html">Social Media Marketing Trends
-                                        Every Business</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- News Block -->
-                    <div class="news-block mb-0 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="blog-single-box">
-                            <div class="image-box">
-                                <figure class="image">
-                                    <a href="news-details.html"><img
-                                            src="https://html.kodesolution.com/2025/nexella-html/images/main-home/blog2.png"
-                                            alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="content-box">
-                                <span class="date">MAY 28,2025</span>
-                                <h4 class="title">
-                                    <a href="news-details.html">How Social Medias Ignite
-                                        Business Growth</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- News Block -->
-                    <div class="news-block mb-0 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="blog-single-box">
-                            <div class="image-box">
-                                <figure class="image">
-                                    <a href="news-details.html"><img
-                                            src="https://html.kodesolution.com/2025/nexella-html/images/main-home/blog3.png"
-                                            alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="content-box">
-                                <span class="date">MAY 28,2025</span>
-                                <h4 class="title">
-                                    <a href="news-details.html">How AI Boosts Efficiency in Social Media</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End News Section -->
-
-        <!-- Main Footer -->
-        <footer class="footer-section-3 theme-color-bg pb-60">
-            <div class="footer-main-wrapper">
-                <div class="footer-circle-shape">
-                    <img src="https://html.kodesolution.com/2025/nexella-html/images/home-3/footer-circle.png"
-                        alt="img">
-                </div>
-                <div class="auto-container">
-                    <div class="footer-widget-wrapper-3">
-                        <div class="row g-4">
-                            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                                <div class="footer-widget-single-items">
-                                    <div class="widget-head">
-                                        <a href="index.html" class="footer-logo"><img src="logo.svg" alt="img"></a>
-                                    </div>
-                                    <div class="footer-content">
-                                        <p class="footer-text">
-                                            Topnotix is a dynamic creative digital marketing dedicated to empowering
-                                            businesses through
-                                        </p>
-                                        <ul class="social-icon-two mt-5">
-                                            <li>
-                                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fab fa-pinterest"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                                <div class="footer-widget-single-items">
-                                    <div class="widget-head">
-                                        <h4 class="widget-title">Quick Link</h4>
-                                    </div>
-                                    <ul class="list-area">
-                                        <li>
-                                            <a href="page-about.html">
-                                                About Us
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="page-team.html">
-                                                Our Team
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html">
-                                                Our Portfolio
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html">
-                                                Careers
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="page-contact.html">
-                                                Contact Us
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html">
-                                                Case Study
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 ps-xl-5 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                                <div class="footer-widget-single-items">
-                                    <div class="widget-head">
-                                        <h4 class="widget-title">Our Solutions</h4>
-                                    </div>
-                                    <ul class="list-area">
-                                        <li>
-                                            <a href="index.html">
-                                                Web Development
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html">
-                                                UI/UX Design
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html">
-                                                Mobile Application
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html">
-                                                Cloud Service
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html">
-                                                Cyber Security
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                                <div class="footer-widget-single-items">
-                                    <div class="widget-head">
-                                        <h4 class="widget-title">Contact Us</h4>
-                                    </div>
-                                    <div class="widget-content">
-                                        <div class="contact-info-box">
-                                            <div class="icon-box">
-                                                <span class="icon fa fa-envelope"></span>
-                                            </div>
-                                            <div class="content-box">
-                                                <h6 class="title">Mail Us:</h6>
-                                                <div class="text"><a href="mailto:needhelp@company.com"
-                                                        class="link">hanson@example.com</a></div>
-                                            </div>
-                                        </div>
-                                        <div class="contact-info-box">
-                                            <div class="icon-box">
-                                                <span class="icon fa fa-map-marker-alt"></span>
-                                            </div>
-                                            <div class="content-box">
-                                                <h6 class="title">Address :</h6>
-                                                <div class="text">4517 Washington Ave. Newyork 39495</div>
-                                            </div>
-                                        </div>
-                                        <div class="contact-info-box mb-0">
-                                            <div class="icon-box">
-                                                <span class="icon fa fa-phone"></span>
-                                            </div>
-                                            <div class="content-box">
-                                                <h6 class="title">Phone:</h6>
-                                                <div class="text"><a href="tel:123456-7890" class="link">(123)
-                                                        456-7890</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="copyright-text wow fadeInUp" data-wow-delay=".3s">
-                        © Copyright Reserved by Topnotix.com
-                    </p>
-                </div>
-            </div>
-        </footer>
-        <!--End Main Footer -->
+  <div class="loader-wrap">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <div class="loader-wrap-heading">
+      <div class="load-text"> <span>T</span> <span>O</span> <span>P</span> <span>N</span> <span>O</span> <span>T</span>
+        <span>I</span> <span>X</span>
+      </div>
     </div>
-    <!-- End Page Wrapper -->
+  </div> <!-- Sroll to top -->
+  <div class="progress-wrap"> <svg class="progress-circle svg-content" width="100%" height="100%"
+      viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg> </div> <!-- side toggle start -->
+  <aside class="fix">
+    <div class="side-info">
+      <div class="side-info-content">
+        <div class="offset-widget offset-header">
+          <div class="offset-logo"> <a href="index.html"> <img class="show-light" src="assets/img/logo.svg"
+                alt="site logo"> <img class="show-dark" src="assets/img/logo-drak.svg" alt="site logo"> </a> </div>
+          <button id="side-info-close" class="side-info-close"> <i class="fas fa-times"></i> </button>
+        </div>
+        <div class="mobile-menu d-xl-none fix"></div>
+        <div class="offset-button"> <a href="#" class="rr-btn"> <span class="btn-wrap"> <span class="text-one">Let's
+                Talk</span> <span class="text-two">Let's Talk</span> </span> </a> </div>
+        <div class="offset-widget-box">
+          <h2 class="title">Contact US</h2>
+          <div class="contact-meta">
+            <div class="contact-item"> <span class="icon"><i class="fa-solid fa-location-dot"></i></span> <span
+                class="text">3891 Ranchview Dr. Richardson</span> </div>
+            <div class="contact-item"> <span class="icon"><i class="fa-solid fa-envelope"></i></span> <span
+                class="text"><a href="mailto:hello@redixo.com">hello@redixo.com</a></span> </div>
+            <div class="contact-item"> <span class="icon"><i class="fa-solid fa-phone"></i></span> <span class="text"><a
+                  href="tel:(505)555-0125">(505) 555-0125</a></span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="offcanvas-overlay"></div> <!-- side toggle end -->
+  <div class="has-smooth" id="has_smooth"></div>
+  <div id="smooth-wrapper">
+    <div id="smooth-content"> <!-- Header area start -->
+      <header class="header-area">
+        <div class="header-main">
+          <div class="container rr-container-1650">
+            <div class="header-area__inner">
+              <div class="header__logo"> <a href="index.html"> <img src="assets/img/logo.svg" class="normal-logo"
+                    alt="Site Logo"> </a> </div>
+              <div class="header__nav pos-center">
+                <nav class="main-menu">
+                  <ul>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="alliances-partnerships.html">Alliances & Partnerships</a></li>
+                    <li> <a href="#">Contact Us</a></li>
 
-
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/jquery.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/popper.min.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/bootstrap.min.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/jquery.fancybox.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/jquery-ui.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/wow.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/select2.min.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/appear.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/knob.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/swiper.min.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/aos.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/gsap.min.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/ScrollTrigger.min.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/splitType.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/gsap-scroll-smoother.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/gsap-scroll-to-plugin.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/SplitText.min.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/custom-gsap.js"></script>
-    <script src="https://html.kodesolution.com/2025/nexella-html/js/script.js"></script>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__button"> <a href="contact.html" class="rr-btn"> <span class="btn-wrap"> <span
+                      class="text-one">Let’s Talk</span> <span class="text-two">Let’s Talk</span> </span> </a>
+                <div class="header__navicon"> <button class="side-toggle"><img src="assets/img/icon.svg"
+                      alt="image"></button> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header> <!-- Header area end --> <!-- Mobile menu area start -->
+      <div class="header__nav d-xl-none">
+        <nav class="main-menu">
+          <ul>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Services</a></li>
+            <li> <a href="alliances-partnerships.html">Alliances & Partnerships</a></li>
+            <li> <a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div> <!-- Mobile menu area end -->
+      <main> <!-- hero area start -->
+        <section class="hero__area">
+          <div class="hero__wrapper">
+            <div class="container rr-container-1650">
+              <div class="row">
+                <div class="col-xl-9 col-lg-8">
+                  <div class="hero__heading">
+                    <h3 class="title ">We Design Stories <br> That Connect.</h3>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4">
+                  <div class="hero__content">
+                    <p class="decs ">We are dedicated to transforming <br> businesses through innovative technology <br>
+                      solutions that drive growth and efficiency. We <br> empower organizations with tailored digital
+                      <br> services.
+                    </p>
+                    <ul class="hero__list ">
+                      <li>Digital Marketing</li>
+                      <li>Creative startup</li>
+                      <li>7x Award winning</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__shape"> <img src="assets/img/banner-1.png" alt="shape"> </div>
+            </div>
+          </div>
+        </section> <!-- hero area start -->
+        <div class="banner-img"> <img data-speed="0.7" src="assets/img/tp-banner.png" alt="img not found"> </div>
+        <!-- about__area start -->
+        <section class="about__area fade-wrapper">
+          <div class="about__wrapper section-space-top">
+            <div class="container rr-container-1650">
+              <div class="about__item-box">
+                <div class="counter__box fade-top">
+                  <div class="counter__item">
+                    <h2><span class="odometer" data-count="21">0</span>K</h2>
+                    <h3>+ <img src="assets/img/about-icon-1.png" alt="img not found"></h3>
+                  </div>
+                  <p class="decs">Redixo support <br> peoples from all over the world</p>
+                </div>
+                <div class="about__content hero fade-top">
+                  <h3 class="title rr_title_anim">We craft tailored digital solutions—combining <br> software
+                    development, product design, QA, <br> and consulting—to elevate the value of your <br> business.
+                  </h3>
+                  <p class="decs rr_title_anim">Our team of experts is dedicated to helping you achieve your digital
+                    <br> goals. From website design and development to SEO, PPC advertising, <br> and social media
+                    marketing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> <!-- about__area end --> <!-- service__section start -->
+        <section class="service__section section-space-top fade-wrapper">
+          <div class="container rr-container-1650">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4">
+                <div class="service__wrap fade-top">
+                  <h4 class="sub-title rr-char-animation"><img src="assets/img/team-icon.svg" alt="icon">Featured
+                    Services</h4>
+                  <div class="content hero">
+                    <h2 class="title rr_title_anim">Services we <br> provide</h2>
+                    <p class="decs rr_title_anim">We are here to build solid and courageous <br> brands that can leave a
+                      strong mark on <br> the world.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-8 col-lg-8">
+                <div class="service__item-wrapper fade-top">
+                  <div class="service__item-box ">
+                    <div class="service__title"> <span></span>
+                      <h3><a href="service-details.html">Digital Marketing</a></h3>
+                    </div>
+                    <div class="service__content">
+                      <p class="decs">Live workshop where we define the main <br> problems and challenges </p>
+                    </div>
+                    <div class="service__icon-box">
+                      <div class="icon"> <img src="assets/img/service-icon-1.png" alt="icon"> </div>
+                    </div>
+                  </div>
+                  <div class="service__item-box ">
+                    <div class="service__title"> <span></span>
+                      <h3><a href="service-details.html">UI-UX Design</a></h3>
+                    </div>
+                    <div class="service__content">
+                      <p class="decs">Live workshop where we define the main <br> problems and challenges </p>
+                    </div>
+                    <div class="service__icon-box">
+                      <div class="icon"> <img src="assets/img/service-icon-2.png" alt="icon"> </div>
+                    </div>
+                  </div>
+                  <div class="service__item-box ">
+                    <div class="service__title"> <span></span>
+                      <h3><a href="service-details.html">Development</a></h3>
+                    </div>
+                    <div class="service__content">
+                      <p class="decs">Live workshop where we define the main <br> problems and challenges </p>
+                    </div>
+                    <div class="service__icon-box">
+                      <div class="icon"> <img src="assets/img/service-icon-3.png" alt="icon"> </div>
+                    </div>
+                  </div>
+                  <div class="service__item-box ">
+                    <div class="service__title"> <span></span>
+                      <h3><a href="service-details.html">Branding</a></h3>
+                    </div>
+                    <div class="service__content">
+                      <p class="decs">Live workshop where we define the main <br> problems and challenges </p>
+                    </div>
+                    <div class="service__icon-box">
+                      <div class="icon"> <img src="assets/img/service-icon-4.png" alt="icon"> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> <!-- service__section end--> <!-- project-section start -->
+        <section class="project-section section-space-bottom section-space-top-2 fade-wrapper">
+          <div class="container rr-container-1650">
+            <div class="project-section__info fade-top animation hero">
+              <h3 class="sub-title _split_text"><img src="assets/img/team-icon.svg" alt="icon">Latest Projects </h3>
+              <h2 class="title rr_title_animation">The work we do, and our <br> favorite ones</h2> <a
+                class="project-btn" href="portfolio.html">Browse all products <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="project-section__item mb-20 ">
+                  <div class="project-section__thumb scale" data-cursor-text="View Project"> <a
+                      href="portfolio-details.html"><img src="assets/img/project-img-1.png" alt="img not found"></a>
+                  </div>
+                  <div class="project-section__content">
+                    <h3 class="title"><a href="portfolio-details.html">Redixo Digital Agency HTML Template <br>
+                        WordPress, Themeforest </a></h3> <span>(2025)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="project-section__item mb-20">
+                  <div class="project-section__thumb scale" data-cursor-text="View Project"> <a
+                      href="portfolio-details.html"><img src="assets/img/project-img-2.png" alt="img not found"></a>
+                  </div>
+                  <div class="project-section__content">
+                    <h3 class="title"><a href="portfolio-details.html">Redixo Digital Agency HTML Template <br>
+                        WordPress, Themeforest </a></h3> <span>(2025)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="project-section__item mb-20">
+                  <div class="project-section__thumb scale" data-cursor-text="View Project"> <a
+                      href="portfolio-details.html"><img src="assets/img/project-img-3.png" alt="img not found"></a>
+                  </div>
+                  <div class="project-section__content">
+                    <h3 class="title"><a href="portfolio-details.html">Redixo Digital Agency HTML Template <br>
+                        WordPress, Themeforest </a></h3> <span>(2025)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="project-section__item project-section__item-2">
+                  <div class="project-section__thumb scale" data-cursor-text="View Project"> <a
+                      href="portfolio-details.html"><img src="assets/img/project-img-4.png" alt="img not found"></a>
+                  </div>
+                  <div class="project-section__content">
+                    <h3 class="title"><a href="portfolio-details.html">Redixo Digital Agency HTML Template <br>
+                        WordPress, Themeforest </a></h3> <span>(2025)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="project-section__item ">
+                  <div class="project-section__thumb scale" data-cursor-text="View Project"> <a
+                      href="portfolio-details.html"><img src="assets/img/project-img-5.png" alt="img not found"></a>
+                  </div>
+                  <div class="project-section__content">
+                    <h3 class="title"><a href="portfolio-details.html">Redixo Digital Agency HTML Template <br>
+                        WordPress, Themeforest </a></h3> <span>(2025)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="project-section__item project-section__item-2 ">
+                  <div class="project-section__thumb scale" data-cursor-text="View Project"> <a
+                      href="portfolio-details.html"><img src="assets/img/project-img-6.png" alt="img not found"></a>
+                  </div>
+                  <div class="project-section__content">
+                    <h3 class="title"><a href="portfolio-details.html">Redixo Digital Agency HTML Template <br>
+                        WordPress, Themeforest </a></h3> <span>(2025)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> <!-- project-section end --> <!-- testimonial-section start -->
+        <section class="testimonial-section pin-area-1 section-space">
+          <div class="container rr-container-1650">
+            <div class="blog-section__info pin-element_1">
+              <h3 class="sub-title"><img src="assets/img/team-icon.svg" alt="icon">Testimonials</h3>
+              <h2 class="title">What our clients say.</h2>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor
+                incididunt</p>
+            </div>
+            <div class="testimonial-section__wrapper">
+              <div class="testimonial-section__item project-panel">
+                <div class="author__box">
+                  <div class="author">
+                    <div class="icon"> <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M20 0V2.74914C16.9184 3.46392 15.4079 5.1134 15.3474 8.57732H20V16H11.6616V10.3917C11.6616 4.17869 13.716 1.20962 20 0ZM8.33837 0V2.74914C5.2568 3.46392 3.74622 5.1134 3.6858 8.57732H8.33837V16H0V10.3917C0 4.17869 2.05438 1.20962 8.33837 0Z"
+                          fill="white" />
+                      </svg> </div>
+                    <div class="author-img"> <img src="assets/img/author-img-1.png" alt="img not found"> </div>
+                  </div>
+                  <div class="author-details">
+                    <h3 class="name">Michael Mahanay</h3>
+                    <h4 class="text">CMO, Supra</h4>
+                  </div>
+                </div>
+                <div class="content">
+                  <p class="decs">What makes Redixo Studio unique is their ability to craft <br> high-quality UI —
+                    something we place a premium on. They’re <br> passionate, professional, fun, and incredibly
+                    creative. <br> Definitely recommend!</p>
+                </div>
+              </div>
+              <div class="testimonial-section__item project-panel">
+                <div class="author__box">
+                  <div class="author">
+                    <div class="icon"> <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M20 0V2.74914C16.9184 3.46392 15.4079 5.1134 15.3474 8.57732H20V16H11.6616V10.3917C11.6616 4.17869 13.716 1.20962 20 0ZM8.33837 0V2.74914C5.2568 3.46392 3.74622 5.1134 3.6858 8.57732H8.33837V16H0V10.3917C0 4.17869 2.05438 1.20962 8.33837 0Z"
+                          fill="white" />
+                      </svg> </div>
+                    <div class="author-img"> <img src="assets/img/author-img-1.png" alt="img not found"> </div>
+                  </div>
+                  <div class="author-details">
+                    <h3 class="name">Michael Mahanay</h3>
+                    <h4 class="text">CMO, Supra</h4>
+                  </div>
+                </div>
+                <div class="content">
+                  <p class="decs">What makes Redixo Studio unique is their ability to craft <br> high-quality UI —
+                    something we place a premium on. They’re <br> passionate, professional, fun, and incredibly
+                    creative. <br> Definitely recommend!</p>
+                </div>
+              </div>
+              <div class="testimonial-section__item project-panel">
+                <div class="author__box">
+                  <div class="author">
+                    <div class="icon"> <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M20 0V2.74914C16.9184 3.46392 15.4079 5.1134 15.3474 8.57732H20V16H11.6616V10.3917C11.6616 4.17869 13.716 1.20962 20 0ZM8.33837 0V2.74914C5.2568 3.46392 3.74622 5.1134 3.6858 8.57732H8.33837V16H0V10.3917C0 4.17869 2.05438 1.20962 8.33837 0Z"
+                          fill="white" />
+                      </svg> </div>
+                    <div class="author-img"> <img src="assets/img/author-img-1.png" alt="img not found"> </div>
+                  </div>
+                  <div class="author-details">
+                    <h3 class="name">Michael Mahanay</h3>
+                    <h4 class="text">CMO, Supra</h4>
+                  </div>
+                </div>
+                <div class="content">
+                  <p class="decs">What makes Redixo Studio unique is their ability to craft <br> high-quality UI —
+                    something we place a premium on. They’re <br> passionate, professional, fun, and incredibly
+                    creative. <br> Definitely recommend!</p>
+                </div>
+              </div>
+              <div class="testimonial-section__item project-panel">
+                <div class="author__box">
+                  <div class="author">
+                    <div class="icon"> <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M20 0V2.74914C16.9184 3.46392 15.4079 5.1134 15.3474 8.57732H20V16H11.6616V10.3917C11.6616 4.17869 13.716 1.20962 20 0ZM8.33837 0V2.74914C5.2568 3.46392 3.74622 5.1134 3.6858 8.57732H8.33837V16H0V10.3917C0 4.17869 2.05438 1.20962 8.33837 0Z"
+                          fill="white" />
+                      </svg> </div>
+                    <div class="author-img"> <img src="assets/img/author-img-1.png" alt="img not found"> </div>
+                  </div>
+                  <div class="author-details">
+                    <h3 class="name">Michael Mahanay</h3>
+                    <h4 class="text">CMO, Supra</h4>
+                  </div>
+                </div>
+                <div class="content">
+                  <p class="decs">What makes Redixo Studio unique is their ability to craft <br> high-quality UI —
+                    something we place a premium on. They’re <br> passionate, professional, fun, and incredibly
+                    creative. <br> Definitely recommend!</p>
+                </div>
+              </div>
+              <div class="testimonial-section__item project-panel">
+                <div class="author__box">
+                  <div class="author">
+                    <div class="icon"> <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M20 0V2.74914C16.9184 3.46392 15.4079 5.1134 15.3474 8.57732H20V16H11.6616V10.3917C11.6616 4.17869 13.716 1.20962 20 0ZM8.33837 0V2.74914C5.2568 3.46392 3.74622 5.1134 3.6858 8.57732H8.33837V16H0V10.3917C0 4.17869 2.05438 1.20962 8.33837 0Z"
+                          fill="white" />
+                      </svg> </div>
+                    <div class="author-img"> <img src="assets/img/author-img-1.png" alt="img not found"> </div>
+                  </div>
+                  <div class="author-details">
+                    <h3 class="name">Michael Mahanay</h3>
+                    <h4 class="text">CMO, Supra</h4>
+                  </div>
+                </div>
+                <div class="content">
+                  <p class="decs">What makes Redixo Studio unique is their ability to craft <br> high-quality UI —
+                    something we place a premium on. They’re <br> passionate, professional, fun, and incredibly
+                    creative. <br> Definitely recommend!</p>
+                </div>
+              </div>
+              <div class="testimonial-section__item project-panel">
+                <div class="author__box">
+                  <div class="author">
+                    <div class="icon"> <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M20 0V2.74914C16.9184 3.46392 15.4079 5.1134 15.3474 8.57732H20V16H11.6616V10.3917C11.6616 4.17869 13.716 1.20962 20 0ZM8.33837 0V2.74914C5.2568 3.46392 3.74622 5.1134 3.6858 8.57732H8.33837V16H0V10.3917C0 4.17869 2.05438 1.20962 8.33837 0Z"
+                          fill="white" />
+                      </svg> </div>
+                    <div class="author-img"> <img src="assets/img/author-img-1.png" alt="img not found"> </div>
+                  </div>
+                  <div class="author-details">
+                    <h3 class="name">Michael Mahanay</h3>
+                    <h4 class="text">CMO, Supra</h4>
+                  </div>
+                </div>
+                <div class="content">
+                  <p class="decs">What makes Redixo Studio unique is their ability to craft <br> high-quality UI —
+                    something we place a premium on. They’re <br> passionate, professional, fun, and incredibly
+                    creative. <br> Definitely recommend!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> <!-- testimonial-section end --> <!-- team-section start -->
+        <section class="team-section section-space fade-wrapper">
+          <div class="container rr-container-1650">
+            <div class="team-section__info">
+              <div class="team-section__heading">
+                <h4 class="sub-title"><img src="assets/img/team-icon.svg" alt="icon"> Our Team</h4>
+                <h3 class="title rr_title_anim">Meet the talented <br>squad </h3>
+              </div>
+              <div class="team-section__btn"> <a class="team-btn" href="team.html">Explore all team <i
+                    class="fas fa-arrow-right"></i></a> </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="team-section__item fade-top">
+                  <div class="team-section__thumb rr--hover-item rr-pos-rel"> <a href="team-details.html">
+                      <div class="rr--hover-img" data-displacement="assets/img/3.jpg" data-intensity="-0.6"
+                        data-speedin="1" data-speedout="1"> <img src="assets/img/team-img-1.jpg" alt="image not found">
+                      </div>
+                    </a> </div>
+                  <div class="team-section__content">
+                    <h3 class="title"><a href="team-details.html">Lily Rose Depp</a></h3> <span>CEO and Founder</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="team-section__item fade-top">
+                  <div class="team-section__thumb rr--hover-item rr-pos-rel"> <a href="team-details.html">
+                      <div class="rr--hover-img" data-displacement="assets/img/3.jpg" data-intensity="-0.6"
+                        data-speedin="1" data-speedout="1"> <img src="assets/img/team-img-2.jpg" alt="image not found">
+                      </div>
+                    </a> </div>
+                  <div class="team-section__content">
+                    <h3 class="title"><a href="team-details.html">Tom Glynn Carney</a></h3> <span>Business
+                      Analyst</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="team-section__item fade-top">
+                  <div class="team-section__thumb rr--hover-item rr-pos-rel"> <a href="team-details.html">
+                      <div class="rr--hover-img" data-displacement="assets/img/3.jpg" data-intensity="-0.6"
+                        data-speedin="1" data-speedout="1"> <img src="assets/img/team-img-3.jpg" alt="image not found">
+                      </div>
+                    </a> </div>
+                  <div class="team-section__content">
+                    <h3 class="title"><a href="team-details.html">Lily Rose Depp</a></h3> <span>Product Manager</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                <div class="team-section__item fade-top">
+                  <div class="team-section__thumb rr--hover-item rr-pos-rel"> <a href="team-details.html">
+                      <div class="rr--hover-img" data-displacement="assets/img/3.jpg" data-intensity="-0.6"
+                        data-speedin="1" data-speedout="1"> <img src="assets/img/team-img-4.jpg" alt="image not found">
+                      </div>
+                    </a> </div>
+                  <div class="team-section__content">
+                    <h3 class="title"><a href="team-details.html">David Kushner</a></h3> <span>CTO and Partner</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> <!-- team-section end --> <!-- blog-section start -->
+        <section class="blog-section section-space-bottom fade-wrapper">
+          <div class="container rr-container-1650">
+            <div class="blog-section__info fade-top animation hero">
+              <h3 class="sub-title _split_text"><img src="assets/img/team-icon.svg" alt="icon">Our News</h3>
+              <h2 class="title rr-char-animation">Fresh Perspectives in Creative <br> Thinking Journals</h2>
+            </div>
+            <div class="blog-section__wrapper fade-top">
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="blog-section__item-box ">
+                    <div class="blog-section__thumb"> <img src="assets/img/blog-img-1.png" data-tilt
+                        alt="img not found"> </div>
+                    <div class="blog-section__content">
+                      <div class="blog-section__meta"> <span><img src="assets/img/team-icon.svg"
+                            alt="icon">Design</span> <span class="date"><img src="assets/img/team-icon.svg"
+                            alt="icon">25 Agu 2025</span> </div>
+                      <h2 class="section-title "><a href="blog-details.html"><span class="icon"> <img class="first"
+                              src="assets/img/blog-icon-1.png" alt="icon"> <img class="second"
+                              src="assets/img/blog-icon-1.png" alt="icon"> </span></a></h2>
+                      <h3 class="title"><a href="blog-details.html">How to design and elevate a <br> creative agency
+                          space</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="blog-section__item-box blog-section__item-box-2">
+                    <div class="blog-section__thumb "> <img src="assets/img/blog-img-2.png" data-tilt
+                        alt="img not found"> </div>
+                    <div class="blog-section__content">
+                      <div class="blog-section__meta"> <span><img src="assets/img/team-icon.svg"
+                            alt="icon">Design</span> <span class="date"><img src="assets/img/team-icon.svg"
+                            alt="icon">25 Agu 2025</span> </div>
+                      <h2 class="section-title "><a href="blog-details.html"><span class="icon"> <img class="first"
+                              src="assets/img/blog-icon-1.png" alt="icon"> <img class="second"
+                              src="assets/img/blog-icon-1.png" alt="icon"> </span></a></h2>
+                      <h3 class="title"><a href="blog-details.html">How to equip and decorate a <br> creative agency</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog-section__wrapper blog-section__wrapper-2">
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="blog-section__item-box">
+                    <div class="blog-section__thumb"> <img src="assets/img/blog-img-3.png" data-tilt
+                        alt="img not found"> </div>
+                    <div class="blog-section__content">
+                      <div class="blog-section__meta"> <span><img src="assets/img/team-icon.svg"
+                            alt="icon">Design</span> <span class="date"><img src="assets/img/team-icon.svg"
+                            alt="icon">25 Agu 2025</span> </div>
+                      <h2 class="section-title "><a href="blog-details.html"><span class="icon"> <img class="first"
+                              src="assets/img/blog-icon-1.png" alt="icon"> <img class="second"
+                              src="assets/img/blog-icon-1.png" alt="icon"> </span></a></h2>
+                      <h3 class="title"><a href="blog-details.html">How to design and elevate a <br> creative agency
+                          space</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="blog-section__item-box blog-section__item-box-2">
+                    <div class="blog-section__thumb "> <img src="assets/img/blog-img-4.png" data-tilt
+                        alt="img not found"> </div>
+                    <div class="blog-section__content ">
+                      <div class="blog-section__meta"> <span><img src="assets/img/team-icon.svg"
+                            alt="icon">Design</span> <span class="date"><img src="assets/img/team-icon.svg"
+                            alt="icon">25 Agu 2025</span> </div>
+                      <h2 class="section-title "><a href="blog-details.html"><span class="icon"> <img class="first"
+                              src="assets/img/blog-icon-1.png" alt="icon"> <img class="second"
+                              src="assets/img/blog-icon-1.png" alt="icon"> </span></a></h2>
+                      <h3 class="title"><a href="blog-details.html">How to equip and decorate a <br> creative agency</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> <!-- blog-section end -->
+      </main> <!-- footer area start -->
+      <footer class="footer-area ">
+        <div class="container rr-container-1650">
+          <div class="footer-widget-wrapper-box">
+            <div class="footer-widget-wrapper">
+              <div class="footer-widget-box content">
+                <div class="title-wrapper">
+                  <h2 class="title rr_title_anim">Let’s start a <br> great work right <br> now </h2>
+                </div> <a href="contact.html" class="rr-btn-underline">Let’s get started now</a>
+              </div>
+              <div class="footer-widget-box">
+                <h2 class="title">Company</h2>
+                <ul class="footer-nav-list">
+                  <li><a href="about.html">Agency</a></li>
+                  <li><a href="service.html">Solutions</a></li>
+                  <li><a href="team.html">Community</a></li>
+                  <li><a href="portfolio.html">Work</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="footer-widget-box">
+                <h2 class="title">Social</h2>
+                <ul class="footer-nav-list">
+                  <li><a href="https://www.facebook.com/">Facebook</a></li>
+                  <li><a href="https://x.com/?lang=en">Twitter</a></li>
+                  <li><a href="https://dribbble.com/">Dribbble</a></li>
+                  <li><a href="https://www.instagram.com/">Instagram</a></li>
+                  <li><a href="https://www.awwwards.com/">Awwwards</a></li>
+                  <li><a href="https://www.youtube.com/">YouTube</a></li>
+                </ul>
+              </div>
+              <div class="footer-widget-box">
+                <h2 class="title">Office</h2>
+                <ul class="footer-nav-list">
+                  <li><a href="contact.html">New York</a></li>
+                  <li><a href="contact.html">Toronto</a></li>
+                  <li><a href="contact.html">Berlin</a></li>
+                  <li><a href="contact.html">London</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-area">
+          <div class="copyright-area-inner">
+            <div class="copyright-text">
+              <p class="text">© 2025 <a href="https://rrdevs.net/">RRDevs. </a> All right reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer> <!-- footer area end -->
+    </div>
+  </div>
+  <div id="theme-toggle" class="switcher-button" title="Toggle Dark/Light Mode">
+    <div class="switcher-button-inner"> <i class="fas fa-sun icon-light"></i> <i class="fas fa-moon icon-dark"></i>
+    </div>
+  </div> <!-- Dependencies JS Files -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollSmoother.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/SplitText.min.js"></script>
+  <script src="assets/js/SplitType.js"></script>
+  <script src="assets/js/customEase.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/backToTop.js"></script>
+  <script src="assets/js/nice-select.js"></script>
+  <script src="assets/js/odometer.min.js"></script>
+  <script src="assets/js/magiccursor.js"></script>
+  <script src="assets/js/vanilla-tilt.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/three.js"></script>
+  <script src="assets/js/hover-effect.umd.js"></script> <!-- Template Main JS File -->
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

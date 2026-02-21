@@ -1,0 +1,52 @@
+/* === Responsive variable scss (index 02) === */
+/* === For Box Layout scss (index 03) === */
+/* === Responsive container scss (index 04) === */
+/* === heading scss (index 01) === */
+/* === dark scss (index 01) === */
+/* === bg primary  scss (index 01) === */
+/* === Transition multiple scss (index 01) === */
+/* === Transform scss (index 01) === */
+/* === Flexbox scss (index 01) === */
+/* === Font Family scss (index 01) === */
+/* === Tartuffo Trial scss (index 02) === */
+@font-face {
+  font-family: "BDOGrotesk";
+  src: url("../font/BDOGrotesk-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "BDOGrotesk";
+  src: url("../font/BDOGrotesk-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "BDOGrotesk";
+  src: url("../font/BDOGrotesk-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "BDOGrotesk";
+  src: url("../font/BDOGrotesk-DemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "BDOGrotesk";
+  src: url("../font/BDOGrotesk-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "BDOGrotesk";
+  src: url("../font/BDOGrotesk-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "BDOGrotesk";
+  src: url("../font/BDOGrotesk-Black.ttf");
+  font-weight: 900;
+}

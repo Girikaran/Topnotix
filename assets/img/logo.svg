@@ -1,9 +1,8 @@
-
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="2708 402 560 125" width="560" height="125">
 	<style>
-		.s0 { fill: #fff } 
-		.s1 { fill: #fff } 
-		.s2 { fill: #fff } 
+		.s0 { fill: #024BAD } 
+		.s1 { fill: #024BAD } 
+		.s2 { fill: #024BAD } 
 	</style>
 	<g id="Layer 1">
 		<g id="Folder 1">
@@ -20,4 +19,4 @@
 			</g>
 		</g>
 	</g>
-</svg>  
+</svg>      
