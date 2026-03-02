@@ -15562,6 +15562,7 @@ section {
   margin-bottom: 5px;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .dark .service__item-box {
@@ -15714,7 +15715,7 @@ section {
 
 .service__title span {
   position: absolute;
-  height: 136px;
+  height: 176px;
   width: 26px;
   background: var(--action);
   left: -10px;
@@ -20733,4 +20734,69 @@ section {
   color: var(--white);
   font-family: var(--font_body);
   transition: all 0.3s ease-in-out;
+}
+
+.t-modal-title h5 {
+  color: var(--action);
+  font-size: 28px;
+}
+
+.t-modal-content h6,
+.t-modal-content h5 {
+  color: var(--action);
+}
+
+.t-modal-content h6 {
+  margin-bottom: 22px;
+}
+
+.t-modal-content>h5 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+.t-modal-content ul li {
+  z-index: 1;
+  list-style: none;
+  width: 25%;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  background: #d0def1;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.t-modal-content ul {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 12px 20px;
+  flex-wrap: wrap;
+}
+
+.t-modal-content ul li span {
+  font-size: 42px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  opacity: 0.15;
+  z-index: -1;
+  font-weight: 900;
+}
+
+@media (max-width:991px) {
+  .t-modal-content ul {
+    flex-direction: column;
+  }
+
+  .t-modal-content ul>* {
+    flex: 1 0 50%;
+    width: 100% !important;
+  }
 }

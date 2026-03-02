@@ -26,13 +26,13 @@
 
 
 
-  // rr_title_anim 
+  // t_title_anim 
   if (document.querySelectorAll(".animation").length > 0) {
     let animation = document.querySelectorAll(".animation");
 
     animation.forEach((animation) => {
       let split = new SplitText(
-        animation.querySelector(".rr_title_animation"),
+        animation.querySelector(".t_title_animation"),
         { type: "chars, words" }
       ),
         tl = gsap.timeline({
@@ -102,9 +102,9 @@
 
 
   // GSAP title animation
-  if (document.querySelectorAll(".rr_title_anim").length > 0) {
-    if ($('.rr_title_anim').length > 0) {
-      let splitTitleLines = gsap.utils.toArray(".rr_title_anim");
+  if (document.querySelectorAll(".t_title_anim").length > 0) {
+    if ($('.t_title_anim').length > 0) {
+      let splitTitleLines = gsap.utils.toArray(".t_title_anim");
       splitTitleLines.forEach(splitTextLine => {
         const tl = gsap.timeline({
           scrollTrigger: {
@@ -630,25 +630,7 @@
   });
 
 
-  // Page load এ check করি body.dark আছে কিনা
-  const toggleBtn = document.getElementById('theme-toggle');
-  if (document.body.classList.contains('dark')) {
-    toggleBtn.classList.add('dark-mode');
-  } else {
-    toggleBtn.classList.add('light-mode');
-  }
 
-  toggleBtn.addEventListener('click', () => {
-    document.body.classList.toggle('dark');
-
-    if (document.body.classList.contains('dark')) {
-      toggleBtn.classList.remove('light-mode');
-      toggleBtn.classList.add('dark-mode');
-    } else {
-      toggleBtn.classList.remove('dark-mode');
-      toggleBtn.classList.add('light-mode');
-    }
-  });
 
 
 })(jQuery);
