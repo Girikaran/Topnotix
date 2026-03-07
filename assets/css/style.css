@@ -6367,7 +6367,7 @@ section {
   font-size: 16px;
   line-height: 27px;
   letter-spacing: -0.03em;
-  color: rgba(17, 17, 17, 0.5);
+  color: rgb(98 96 96);
 }
 
 .dark .about__content .decs {
@@ -15778,7 +15778,7 @@ section {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
-  color: #999999;
+  color: #6e6e6e;
   font-family: var(--font_body);
   transition: all 0.3s ease-in-out;
 }
