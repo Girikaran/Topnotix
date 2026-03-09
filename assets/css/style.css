@@ -20891,3 +20891,10 @@ section {
 .service-partnerships__section .service__item-box::before {
   background: #8dbdfd;
 }
+
+.hero-section-3__wrapper .about__page-list ul li::before {
+  top: 8px;
+}
+.tp-portfolio-section h3.title{
+  color: var(--action) !important;
+}
