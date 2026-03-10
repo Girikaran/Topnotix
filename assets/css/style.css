@@ -20895,6 +20895,22 @@ section {
 .hero-section-3__wrapper .about__page-list ul li::before {
   top: 8px;
 }
-.tp-portfolio-section h3.title{
+
+.tp-portfolio-section h3.title {
   color: var(--action) !important;
+}
+
+.about__page-list_ul li {
+  padding-left: 0 !important;
+}
+
+.about__page-list_ul li::before {
+  display: none;
+}
+.tp-services .feature-list li{
+background: #b0cef7;
+}
+.tp-services-item .service-page__thumb img{
+  visibility: visible;
+  opacity: 1;
 }

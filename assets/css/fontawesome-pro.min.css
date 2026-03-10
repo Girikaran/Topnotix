@@ -92,7 +92,7 @@
 .fasdr:after,
 .fasds:after,
 .fasdt:after {
-    content: var(--fa--fa)
+    /* content: var(--fa--fa) */
 }
 
 .fa-classic.fa-duotone {
@@ -115,7 +115,7 @@
 .far,
 .fas,
 .fat {
-    font-family: "Font Awesome 6 Pro"
+    font-family: "Font Awesome 6 Pro" !important
 }
 
 .fa-duotone,
